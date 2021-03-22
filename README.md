@@ -27,6 +27,9 @@ Set the working directory for the `terraform` command when the scripts shells ou
 
 Sets the workspace for the `terraform` command when the scripts shells out to it, defaults to `default` workspace - if you don't use workspaces this is the one you'll be using. 
 
+### ANSIBLE\_TF\_S3\_BUCKET
+
+When running terraform_s3.py, This will be the name of the s3 bucket to traverse through to the inventory from.
 
 ## License
 
